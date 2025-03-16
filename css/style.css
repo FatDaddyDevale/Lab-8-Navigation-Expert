@@ -2,6 +2,7 @@
 
 #navbar-container{
   overflow-x: hidden;
+  background-color: blue;
 }
 
 #navbar-container ul{
@@ -12,18 +13,23 @@
   justify-content: center;
   width: 100%;
   margin: 0;
-  background-color: blue;
+  
 }
 
 #navbar-container ul li a{
-  text-decoration: underline overline;
   padding: 20px 20px;
   display: block;
   color: #fff;
+  text-decoration: none;
 }
 
 #navbar-container ul li a:hover {
   background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+  color: #fff;
 }
 
 /*side nav*/
